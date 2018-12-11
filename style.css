@@ -1,0 +1,73 @@
+h1, h2 {
+    color: pink;
+}
+ 
+p {
+    text-justify: center;
+    color: #767676
+}
+ 
+div {
+    width: 700px;
+    margin: 40px;
+}
+ 
+@media (max-width: 700px) {
+    div {width: auto;
+    }
+ }
+ 
+body {
+    text-align: center;
+    background-image: url(https://i2.wp.com/ecorail-transport.fr/wp-content/uploads/2017/07/Fond-site-1.jpg?ssl=1); ;
+}
+ 
+#photo {
+    border-radius: 50px;
+    width: 130px;
+}
+ 
+.card-white {
+    background-color: white;
+    border-radius: 4px;
+    padding: 18px 40px 30px 40px;
+    box-shadow: 0px 5px 20px #757575;
+    margin: 22px 0px;
+    text-align: center;
+}
+ 
+#introduction p {
+    margin-bottom: 40px;
+}
+ 
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 40px;
+    color: #757575;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.list-inline i:hover {
+    color : #757575;
+    text-decoration: none;
+}
+ 
+.btn {
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+    background-color: #757575;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 20px;
+}
+.btn:hover {
+    color: #757575;
+    background-color: white;
+}
